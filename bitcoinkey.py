@@ -16,7 +16,7 @@ def privatekeyinhex(val):
     return priv_key_hex, priv_key_and_version
 
 
-priv_key_hex = privatekeyinhex(b"Bitcoins are cool")
+priv_key_hex = privatekeyinhex(b"Bitcoin is money")
 
 
 # Calculate the public key from the private key via secp256k1 ECDSA curve
